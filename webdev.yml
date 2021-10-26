@@ -1,0 +1,22 @@
+name: webdev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - cookiecutter
+  - pip
+  - pip:
+    - pelican
+    - Markdown
+    - pelican-jupyter
+
+
+    
+    

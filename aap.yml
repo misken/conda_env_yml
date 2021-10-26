@@ -1,0 +1,33 @@
+name: aap
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - pyomo
+  - pyomo.extras
+  - glpk
+  - mesa
+  - networkx
+  - statsmodels
+  - sphinx
+  - myst-parser
+  - cookiecutter
+  - pillow
+  - python-graphviz
+  - openpyxl
+  - xlrd
+  - xlsxwriter
+  - xlwt
+  - pip:
+	  - simpy
+
+    
+    

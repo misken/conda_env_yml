@@ -1,0 +1,21 @@
+name: analytics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - statsmodels
+  - cookiecutter
+  - pip
+
+
+    
+    
