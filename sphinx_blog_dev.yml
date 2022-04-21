@@ -1,23 +1,22 @@
-name: analytics
+name: sphinx_blog_dev
 channels:
   - defaults
   - conda-forge
 dependencies:
+  - python=3.8
+  - sphinx=4.3.2
   - numpy
   - pandas
   - scipy
   - scikit-learn
   - matplotlib
-  - seaborn
   - ipykernel
-  - simpy
-  - networkx
-  - statsmodels
-  - sphinx
-  - cookiecutter
-  - pyyaml
-  - pytest
   - pip
+  - pip:
+    - myst-nb
+    - ablog
+    - pydata_sphinx_theme
+    - sphinx_panels
 
 
     
